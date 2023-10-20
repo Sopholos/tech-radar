@@ -4,18 +4,26 @@ quadrant	ring	label	link	active	moved
 2	1	Kafka		TRUE	0
 2	1	MongoDB		TRUE	0
 2	2	ElasticSearch		TRUE	0
+2	2	OpenSearch		TRUE	0
+2	2	ClickHouse		TRUE	0
 2	0	S3		TRUE	0
 2	0	Samba		TRUE	0
-2	0	MS iSCSI		TRUE	0
-2	0	MS File Server		TRUE	0
+2	3	MS iSCSI		TRUE	0
+2	3	MS File Server		TRUE	0
 1	3	Ya.Cloud		TRUE	0
 1	3	MS Windows		TRUE	0
 1	0	Ubuntu		TRUE	0
-1	0	MS Hyper-V		TRUE	0
-1	0	MS RRAS		TRUE	0
-1	0	MS DHCP		TRUE	0
-1	0	MS IIS		TRUE	0
+1	2	VMWare		TRUE	0
+1	2	OpenStack		TRUE	0
+1	2	OpenShift		TRUE	0
+1	2	KVM		TRUE	0
+1	3	MS Hyper-V		TRUE	0
+1	3	MS RRAS		TRUE	0
+1	3	MS DHCP		TRUE	0
+1	3	MS IIS		TRUE	0
 1	0	MS ADFS		TRUE	0
+1	2	nginx		TRUE	0
+1	2	HAProxy		TRUE	0
 1	0	OpenVPN		TRUE	0
 1	0	Zabbix		TRUE	0
 1	0	Ansible		TRUE	0
@@ -23,6 +31,7 @@ quadrant	ring	label	link	active	moved
 1	0	Docker		TRUE	0
 1	3	Azure registry		TRUE	0
 1	0	Registry		TRUE	0
+1	2	GitLab Registry		TRUE	0
 1	0	Terraform		TRUE	0
 1	3	Azure DevOps		TRUE	0
 1	0	GitLab		TRUE	0
@@ -33,22 +42,30 @@ quadrant	ring	label	link	active	moved
 3	3	PowerBI		TRUE	0
 3	2	Apache Superset 		TRUE	0
 3	2	Apache NiFi		TRUE	0
-3	0	Jira		TRUE	0
-3	0	Confluence		TRUE	0
-3	3	Redmine		TRUE	0
-3	0	Mattermost		TRUE	0
-3	3	Bitrix		TRUE	0
-3	0	Ya.Mail		TRUE	0
+3	2	Apache Airflow		TRUE	0
+3	2	Apache Flink		TRUE	0
+3	2	Apache Beam		TRUE	0
+3	2	Apache Spark		TRUE	0
+3	2	Apache Hadoop		TRUE	0
+3	2	ELK-stack		TRUE	0
+0	0	Jira		TRUE	0
+0	0	Confluence		TRUE	0
+0	3	Redmine		TRUE	0
+0	0	Mattermost		TRUE	0
+0	0	Telegram		TRUE	0
+0	3	Bitrix		TRUE	0
+0	0	Ya.Mail		TRUE	0
 0	0	C#		TRUE	0
 0	0	Python		TRUE	0
 0	0	JavaScript		TRUE	0
-0	0	C++		TRUE	0
+0	3	C++		TRUE	0
 0	0	PowerShell		TRUE	0
-0	0	.NET Framework		TRUE	0
+0	3	.NET Framework		TRUE	0
 0	0	.NET Core		TRUE	0
-0	0	ASP.NET		TRUE	0
+0	3	ASP.NET		TRUE	0
+0	0	ASP.NET Core		TRUE	0
 0	0	Entity Framework		TRUE	0
-0	0	Dapper		TRUE	0
+0	3	Dapper		TRUE	0
 0	0	MS Visual Studio		TRUE	0
 0	0	MS Visual Code		TRUE	0
 0	0	Rider		TRUE	0
