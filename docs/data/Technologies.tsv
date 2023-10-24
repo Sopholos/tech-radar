@@ -75,7 +75,7 @@ quadrant	ring	label	link	active	moved	type	area
 1	ASSESS	HAProxy		TRUE	0	Web	
 1	TRIAL	Traefik		TRUE	0	Web	
 1	ADOPT	OpenVPN		TRUE	0	Network	
-1	ASSESS	IPsec IKEv2	TRUE	0	Network	
+1	ASSESS	IPsec/IKEv2	TRUE	0	Network	
 1	ADOPT	Zabbix		TRUE	0	Monitoring	
 1	ADOPT	Prometheus		TRUE	0	Monitoring	
 1	ADOPT	Grafana		TRUE	0	Monitoring	
