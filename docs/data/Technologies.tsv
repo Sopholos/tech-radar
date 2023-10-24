@@ -1,5 +1,7 @@
 quadrant	ring	label	link	active	moved	type	area
 2	ADOPT	PostgreSQL		TRUE	0	DB	
+2	TRIAL	TimescaleDB		TRUE	0	DB	PostgreSQL
+2	ADOPT	Redis		TRUE	0	DB	Cache
 2	ADOPT	SQLite		TRUE	0	DB	
 2	HOLD	RabbitMQ		TRUE	0	Queue	
 2	TRIAL	Kafka		TRUE	0	Queue	
@@ -30,7 +32,7 @@ quadrant	ring	label	link	active	moved	type	area
 0	HOLD	ASP.NET		TRUE	0	Framework/Library/SDK	Fullstack
 0	ADOPT	ASP.NET Core		TRUE	0	Framework/Library/SDK	Fullstack
 0	ADOPT	Entity Framework		TRUE	0	Framework/Library/SDK	Fullstack
-0	HOLD	Dapper		TRUE	0	Framework/Library/SDK	Fullstack
+0	ADOPT	Dapper		TRUE	0	Framework/Library/SDK	Fullstack
 							
 							
 0	ADOPT	Kotlin		TRUE	0	Language	Mobile
@@ -53,7 +55,7 @@ quadrant	ring	label	link	active	moved	type	area
 							
 0	HOLD	C++		TRUE	0	Language	
 							
-							
+0	ADOPT	Go		TRUE	0	Language	ML/DM/etc
 							
 1	HOLD	Ya.Cloud		TRUE	0	Cloud	
 1	HOLD	MS Windows		TRUE	0	OS	
@@ -69,6 +71,7 @@ quadrant	ring	label	link	active	moved	type	area
 1	ADOPT	MS ADFS		TRUE	0	OAuth	Authentication
 1	ASSESS	nginx		TRUE	0	Web	
 1	ASSESS	HAProxy		TRUE	0	Web	
+1	TRIAL	Traefik		TRUE	0	Web	
 1	ADOPT	OpenVPN		TRUE	0	Network	
 1	ADOPT	Zabbix		TRUE	0	Monitoring	
 1	ADOPT	Prometheus		TRUE	0	Monitoring	
@@ -107,9 +110,9 @@ quadrant	ring	label	link	active	moved	type	area
 3	ADOPT	MS Visual Code		TRUE	0	IDE	
 3	ADOPT	Rider		TRUE	0	IDE	
 							
-3	ADOPT	TestOps		TRUE	0		Test
+3	TRIAL	TestOps		TRUE	0		Test
 3	ADOPT	Postman		TRUE	0		Test
-3	ASSESS	Playwright		TRUE	0		Test
+3	ADOPT	Playwright		TRUE	0		Test
 							
 3	TRIAL	Archimate		TRUE	0		Analytics
 3	ADOPT	Redoc		TRUE	0		Analytics
