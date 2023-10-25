@@ -33,7 +33,7 @@ quadrant	ring	label	link	active	moved	type	area
 0	ADOPT	ASP.NET Core		TRUE	0	Framework/Library/SDK	Fullstack
 0	ADOPT	Entity Framework		TRUE	0	Framework/Library/SDK	Fullstack
 0	ADOPT	Dapper		TRUE	0	Framework/Library/SDK	Fullstack
-							
+0	ASSESS	MassTransit		TRUE	0	Framework/Library/SDK	
 							
 0	ADOPT	Kotlin		TRUE	0	Language	Mobile
 0	ADOPT	Room		TRUE	0	Framework/Library/SDK	Mobile
