@@ -60,10 +60,12 @@ quadrant	ring	label	link	active	moved	type	area
 1	HOLD	Ya.Cloud		TRUE	0	Cloud	
 1	HOLD	MS Windows		TRUE	0	OS	
 1	ADOPT	Ubuntu		TRUE	0	OS	
+1	ASSESS	Debian		TRUE	0	OS	
 1	ASSESS	VMWare		TRUE	0	Virtualization	
 1	ASSESS	OpenStack		TRUE	0	Virtualization	
 1	ASSESS	OpenShift		TRUE	0	Virtualization	
 1	ASSESS	KVM		TRUE	0	Virtualization	
+1	ASSESS	Proxmox		TRUE	0	Virtualization	
 1	HOLD	MS Hyper-V		TRUE	0	Virtualization	
 1	HOLD	MS RRAS		TRUE	0	Network	
 1	HOLD	MS DHCP		TRUE	0	Network	
@@ -73,6 +75,7 @@ quadrant	ring	label	link	active	moved	type	area
 1	ASSESS	HAProxy		TRUE	0	Web	
 1	TRIAL	Traefik		TRUE	0	Web	
 1	ADOPT	OpenVPN		TRUE	0	Network	
+1	ASSESS	IPsec IKEv2		TRUE	0	Network	
 1	ADOPT	Zabbix		TRUE	0	Monitoring	
 1	ADOPT	Prometheus		TRUE	0	Monitoring	
 1	ADOPT	Grafana		TRUE	0	Monitoring	
