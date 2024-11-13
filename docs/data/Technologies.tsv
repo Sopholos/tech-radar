@@ -1,6 +1,6 @@
 quadrant	ring	label	link	active	moved	type	area
 2	ADOPT	PostgreSQL		TRUE	0	DB	
-2	TRIAL	TimescaleDB		TRUE	0	DB	PostgreSQL
+2	ADOPT	TimescaleDB		TRUE	1	DB	PostgreSQL
 2	ADOPT	Redis		TRUE	0	DB	Cache
 2	ADOPT	SQLite		TRUE	0	DB	
 2	HOLD	RabbitMQ		TRUE	0	Queue	
@@ -14,15 +14,15 @@ quadrant	ring	label	link	active	moved	type	area
 2	HOLD	MS iSCSI		TRUE	0	File storage	
 2	HOLD	MS File Server		TRUE	0	File storage	
 2	HOLD	PowerBI		TRUE	0	Analytics	
-2	ASSESS	Apache Superset 		TRUE	0	Analytics	
-2	ASSESS	Apache NiFi		TRUE	0	ETL	
-2	ASSESS	Apache Airflow		TRUE	0	ETL	
-2	ASSESS	Apache Flink		TRUE	0	ETL	
-2	ASSESS	Apache Beam		TRUE	0	ETL	
-2	ASSESS	Apache Spark		TRUE	0	Distributed	
-2	ASSESS	Apache Hadoop		TRUE	0	Distributed	
-2	ASSESS	ELK-stack		TRUE	0	Log seach	
-							
+2	ADOPT	Apache Superset 		TRUE	1	Analytics	
+2	HOLD	Apache NiFi		TRUE	-1	ETL	
+2	ADOPT	Apache Airflow		TRUE	0	ETL	
+2	HOLD	Apache Flink		TRUE	-1	ETL	
+2	HOLD	Apache Beam		TRUE	-1	ETL	
+2	HOLD	Apache Spark		TRUE	-1	Distributed	
+2	HOLD	Apache Hadoop		TRUE	-1	Distributed	
+2	HOLD	ELK-stack		TRUE	-1	Log seach	
+2	TRIAL	DuckDB 		TRUE	1	ETL	
 							
 							
 0	ADOPT	C#		TRUE	0	Language	Fullstack
@@ -71,7 +71,7 @@ quadrant	ring	label	link	active	moved	type	area
 1	HOLD	MS DHCP		TRUE	0	Network	
 1	HOLD	MS IIS		TRUE	0	Web	
 1	ADOPT	MS ADFS		TRUE	0	OAuth	Authentication
-1	ASSESS	nginx		TRUE	0	Web	
+1	ADOPT	nginx		TRUE	1	Web	
 1	ASSESS	HAProxy		TRUE	0	Web	
 1	TRIAL	Traefik		TRUE	0	Web	
 1	ADOPT	OpenVPN		TRUE	0	Network	
@@ -94,7 +94,8 @@ quadrant	ring	label	link	active	moved	type	area
 1	HOLD	BitBucket		TRUE	0	CI/CD	
 1	ADOPT	GeoServer		TRUE	0	Maps	
 1	ADOPT	OpenStreetMap		TRUE	0	Maps	
-							
+1	TRIAL	Open Route Service		TRUE	1	Maps	
+1	ASSESS	Patroni		TRUE	1	DB	PostgreSQL
 							
 							
 							
@@ -117,7 +118,8 @@ quadrant	ring	label	link	active	moved	type	area
 3	ADOPT	Postman		TRUE	0		Test
 3	ADOPT	Playwright		TRUE	0		Test
 							
-3	TRIAL	Archimate		TRUE	0		Analytics
+3	HOLD	Archimate		TRUE	-1		Analytics
+3	ADOPT	MdBook		TRUE	1		Analytics
 3	ADOPT	Redoc		TRUE	0		Analytics
 3	ADOPT	draw.io		TRUE	0		Analytics
 							
